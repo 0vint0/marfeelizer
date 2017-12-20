@@ -1,0 +1,100 @@
+{
+	"id": "09d3aca0-e703-67f2-e305-df63ce1565e4",
+	"name": "marfeelizer",
+	"description": "",
+	"order": [
+		"a7c90ad4-91bb-b106-74ed-1ea5793b965a",
+		"ed96258e-2e18-aaeb-af92-67c2d889757d",
+		"08a4995f-0a11-7021-b522-5a965d04ae74"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1513703386368,
+	"owner": "1686206",
+	"public": false,
+	"requests": [
+		{
+			"id": "08a4995f-0a11-7021-b522-5a965d04ae74",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/sites/MARFEELIZABLE",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "09d3aca0-e703-67f2-e305-df63ce1565e4",
+			"data": null,
+			"dataMode": "params",
+			"name": "get by status",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1513729284349,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "a7c90ad4-91bb-b106-74ed-1ea5793b965a",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/sites",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1513758559466,
+			"name": "Add urls to Marfeel",
+			"description": "",
+			"collectionId": "09d3aca0-e703-67f2-e305-df63ce1565e4",
+			"responses": [],
+			"rawModeData": "[\n     {\n        \"url\": \"http://www.euronews.com\",\n        \"rank\": 2\n    },\n    {\n        \"url\": \"http://www.centrallecheraasturiana.es\",\n        \"rank\": 834987\n    },\n    {\n        \"url\": \"http://www.guiafull.com\",\n        \"rank\": 571272\n    },\n    {\n        \"url\": \"http://www.leasing4business.co.uk\",\n        \"rank\": 435035\n    },\n    {\n        \"url\": \"http://www.ayto-arganda.es\",\n        \"rank\": 678918\n    },\n    {\n        \"url\": \"http://www.fcc.es\",\n        \"rank\": 476590\n    },\n    {\n        \"url\": \"http://www.salrito.com\",\n        \"rank\": 64443\n    },\n    {\n        \"url\": \"http://www.ferroli.es\",\n        \"rank\": 940505\n    },\n    {\n        \"url\": \"http://www.mo2o.com\",\n        \"rank\": 975378\n    },\n    {\n        \"rank\": 2122,\n        \"url\": \"http://www.forocoches.com\"\n    },\n    {\n        \"url\": \"http://www.informacion-empresas.com\",\n        \"rank\": 43081\n    },\n    {\n        \"url\": \"http://www.urbecom.com\",\n        \"rank\": 41110\n    },\n    {\n        \"url\": \"http://www.once.es\",\n        \"rank\": 56295\n    },\n    {\n        \"url\": \"http://www.oscaro.es\",\n        \"rank\": 54958\n    },\n    {\n        \"rank\": 5876,\n        \"url\": \"http://www.c-and-a.com\"\n    },\n    {\n        \"url\": \"http://www.toshiba.es\",\n        \"rank\": 99869\n    },\n    {\n        \"url\": \"http://www.terra.edu\",\n        \"rank\": 257120\n    },\n    {\n        \"url\": \"http://www.mbsdirect.net\",\n        \"rank\": 133092\n    },\n    {\n        \"rank\": 7016,\n        \"url\": \"http://www.enjoydressup.com\"\n    },\n    {\n        \"url\": \"http://www.avalonstreasury.com\",\n        \"rank\": 331523\n    },\n    {\n        \"url\": \"http://www.rwwa.com.au\",\n        \"rank\": 615216\n    },\n    {\n        \"url\": \"http://www.londontheatredirect.com\",\n        \"rank\": 213923\n    },\n    {\n        \"rank\": 8968,\n        \"url\": \"http://www.secretsearchenginelabs.com\"\n    },\n    {\n        \"rank\": 5310,\n        \"url\": \"http://www.planetminecraft.com\"\n    },\n    {\n        \"url\": \"http://www.asianbabecams.com\",\n        \"rank\": 238455\n    },\n    {\n        \"url\": \"http://www.vuitton.com\",\n        \"rank\": 61060\n    },\n    {\n        \"url\": \"http://www.lfpcontent.com\",\n        \"rank\": 23347\n    },\n    {\n        \"url\": \"http://www.ysl.com\",\n        \"rank\": 32718\n    },\n    {\n        \"url\": \"http://www.hotel.info\",\n        \"rank\": 28861\n    },\n    {\n        \"url\": \"http://www.allsp.ch\",\n        \"rank\": 69018\n    },\n    {\n        \"url\": \"http://www.toshiba.eu\",\n        \"rank\": 36174\n    },\n    {\n        \"url\": \"http://www.avanjob.com\",\n        \"rank\": 942161\n    },\n    {\n        \"url\": \"http://www.emoxion.com\",\n        \"rank\": 565946\n    },\n    {\n        \"url\": \"http://www.9nl.me\",\n        \"rank\": 105068\n    },\n    {\n        \"url\": \"http://www.radikaldarts.com\",\n        \"rank\": 733997\n    },\n    {\n        \"rank\": 10660,\n        \"url\": \"http://www.poshdressup.com\"\n    },\n    {\n        \"url\": \"http://www.aehcos.es\",\n        \"rank\": 923692\n    },\n    {\n        \"url\": \"http://www.fen.org.es\",\n        \"rank\": 864295\n    },\n    {\n        \"url\": \"http://www.emailings.es\",\n        \"rank\": 863562\n    },\n    {\n        \"url\": \"http://www.todacultura.com\",\n        \"rank\": 389290\n    },\n    {\n        \"url\": \"http://www.juegosmonitos.com\",\n        \"rank\": 83572\n    },\n    {\n        \"url\": \"http://www.012global.com\",\n        \"rank\": 27361\n    },\n    {\n        \"url\": \"http://www.coopersofstortford.co.uk\",\n        \"rank\": 156203\n    },\n    {\n        \"url\": \"http://www.photosnack.com\",\n        \"rank\": 47066\n    },\n    {\n        \"url\": \"http://www.chulojuegos.com\",\n        \"rank\": 55116\n    },\n    {\n        \"url\": \"http://www.adeccoplata.es\",\n        \"rank\": 736498\n    },\n    {\n        \"url\": \"http://www.vidarural.es\",\n        \"rank\": 616195\n    },\n    {\n        \"url\": \"http://www.cuenta-atras.com\",\n        \"rank\": 752984\n    },\n    {\n        \"url\": \"http://www.historiasinsolitas.com\",\n        \"rank\": 266976\n    },\n    {\n        \"url\": \"http://www.juegoswapos.es\",\n        \"rank\": 89666\n    },\n    {\n        \"url\": \"http://www.hobbyplay.net\",\n        \"rank\": 614530\n    },\n    {\n        \"url\": \"http://www.lolabits.es\",\n        \"rank\": 246042\n    },\n    {\n        \"url\": \"http://www.payatrader.com\",\n        \"rank\": 466543\n    },\n    {\n        \"url\": \"http://www.adshiftmedia.com\",\n        \"rank\": 58515\n    },\n    {\n        \"url\": \"http://www.secrets-shhh.com\",\n        \"rank\": 1530649\n    },\n    {\n        \"url\": \"http://www.sjpbank.co.uk\",\n        \"rank\": 652241\n    },\n    {\n        \"url\": \"http://www.yourschooluniform.com\",\n        \"rank\": 533470\n    },\n    {\n        \"url\": \"http://www.theivr.co\",\n        \"rank\": 689459\n    },\n    {\n        \"url\": \"http://www.presentsformen.com\",\n        \"rank\": 277338\n    },\n    {\n        \"url\": \"http://www.firstaid4sport.co.uk\",\n        \"rank\": 346032\n    },\n    {\n        \"url\": \"http://www.reikiforhorses.com.au\",\n        \"rank\": 716068\n    },\n    {\n        \"url\": \"http://www.toshiba.co.uk\",\n        \"rank\": 67887\n    },\n    {\n        \"url\": \"http://www.cartoonnetwork.com.au\",\n        \"rank\": 426531\n    },\n    {\n        \"url\": \"http://www.wales.gov.uk\",\n        \"rank\": 110886\n    },\n    {\n        \"url\": \"http://www.dunelondon.com\",\n        \"rank\": 88232\n    },\n    {\n        \"url\": \"http://www.babesoflondon.com\",\n        \"rank\": 228816\n    },\n    {\n        \"url\": \"http://www.naturesbest.co.uk\",\n        \"rank\": 214877\n    },\n    {\n        \"url\": \"http://www.ajedrezonline.com\",\n        \"rank\": 132538\n    },\n    {\n        \"url\": \"http://www.portalcoches.net\",\n        \"rank\": 407683\n    },\n    {\n        \"url\": \"http://www.museodelferrocarril.org\",\n        \"rank\": 893048\n    },\n    {\n        \"url\": \"http://www.juganding.com\",\n        \"rank\": 252893\n    },\n    {\n        \"url\": \"http://www.copc.org\",\n        \"rank\": 875619\n    },\n    {\n        \"url\": \"http://www.infigo-cleaner.com\",\n        \"rank\": 327319\n    },\n    {\n        \"rank\": 14068,\n        \"url\": \"http://www.louisvuitton.com\"\n    },\n    {\n        \"rank\": 18589,\n        \"url\": \"http://www.armani.com\"\n    },\n    {\n        \"url\": \"http://www.anunclas.com\",\n        \"rank\": 542650\n    },\n    {\n        \"url\": \"http://www.canarirural.com\",\n        \"rank\": 719404\n    },\n    {\n        \"url\": \"http://www.huesca.es\",\n        \"rank\": 684312\n    },\n    {\n        \"url\": \"http://www.baleares.com\",\n        \"rank\": 715634\n    },\n    {\n        \"url\": \"http://www.husa.es\",\n        \"rank\": 547231\n    },\n    {\n        \"url\": \"http://www.bajaps3.com\",\n        \"rank\": 551176\n    },\n    {\n        \"url\": \"http://www.deputacionlugo.org\",\n        \"rank\": 610818\n    },\n    {\n        \"url\": \"http://www.acid-lounge.org.uk\",\n        \"rank\": 457799\n    },\n    {\n        \"url\": \"http://www.greythorn.com\",\n        \"rank\": 640344\n    },\n    {\n        \"url\": \"http://www.escorts-highclass.com\",\n        \"rank\": 482112\n    },\n    {\n        \"url\": \"http://www.fioridue.com\",\n        \"rank\": 472974\n    },\n    {\n        \"url\": \"http://www.mirapubli.com\",\n        \"rank\": 196016\n    },\n    {\n        \"url\": \"http://www.isurveyworld.com\",\n        \"rank\": 38777\n    },\n    {\n        \"url\": \"http://www.aficionis.com\",\n        \"rank\": 560363\n    },\n    {\n        \"url\": \"http://www.tienda-online-informatica.com\",\n        \"rank\": 315830\n    },\n    {\n        \"url\": \"http://www.visitamails.com\",\n        \"rank\": 142220\n    },\n    {\n        \"url\": \"http://www.streetmap.co.uk\",\n        \"rank\": 35902\n    },\n    {\n        \"url\": \"http://www.clubligeresa.es\",\n        \"rank\": 353686\n    },\n    {\n        \"url\": \"http://www.sarbacan.es\",\n        \"rank\": 175907\n    },\n    {\n        \"url\": \"http://www.cobuc.com\",\n        \"rank\": 423647\n    },\n    {\n        \"url\": \"http://www.travestiguide.com\",\n        \"rank\": 228728\n    },\n    {\n        \"url\": \"http://www.ligafemenina.es\",\n        \"rank\": 343851\n    },\n    {\n        \"url\": \"http://www.electronicaweb.com\",\n        \"rank\": 458613\n    },\n    {\n        \"url\": \"http://www.rockandclassics.com\",\n        \"rank\": 335573\n    },\n    {\n        \"url\": \"http://www.dkvseguros.com\",\n        \"rank\": 243883\n    },\n    {\n        \"url\": \"http://www.veomails.com\",\n        \"rank\": 254914\n    },\n    {\n        \"url\": \"http://www.cis.es\",\n        \"rank\": 308400\n    },\n    {\n        \"url\": \"http://www.tiendatinta.com\",\n        \"rank\": 313390\n    },\n    {\n        \"url\": \"http://www.explido.com\",\n        \"rank\": 245599\n    },\n    {\n        \"url\": \"http://www.aqualia.es\",\n        \"rank\": 697241\n    },\n    {\n        \"url\": \"http://www.adeccooro.es\",\n        \"rank\": 340524\n    },\n    {\n        \"url\": \"http://www.tittendestages.tumblr.com\",\n        \"rank\": 239731\n    },\n    {\n        \"url\": \"http://www.onlinegratis.tv\",\n        \"rank\": 89728\n    },\n    {\n        \"url\": \"http://www.e-domizil.es\",\n        \"rank\": 219463\n    },\n    {\n        \"url\": \"http://www.rational-online.com\",\n        \"rank\": 238285\n    },\n    {\n        \"url\": \"http://www.belgacom.be\",\n        \"rank\": 14069\n    },\n    {\n        \"url\": \"http://www.alittlebookof.com\",\n        \"rank\": 274953\n    },\n    {\n        \"url\": \"http://www.promocionmovistar.es\",\n        \"rank\": 113014\n    },\n    {\n        \"url\": \"http://www.clubcentrallecheraasturiana.es\",\n        \"rank\": 189829\n    },\n    {\n        \"url\": \"http://www.ctm-madrid.es\",\n        \"rank\": 115605\n    },\n    {\n        \"url\": \"http://www.quevideos.com\",\n        \"rank\": 66024\n    },\n    {\n        \"url\": \"http://www.electromarket.com\",\n        \"rank\": 140870\n    },\n    {\n        \"url\": \"http://www.nokiafreeunlock.com\",\n        \"rank\": 722930\n    },\n    {\n        \"url\": \"http://www.administradores-empresas.com\",\n        \"rank\": 148827\n    },\n    {\n        \"url\": \"http://www.pasalapasta.com\",\n        \"rank\": 77169\n    },\n    {\n        \"url\": \"http://www.chinatownlondon.org\",\n        \"rank\": 609202\n    },\n    {\n        \"url\": \"http://www.sodimac.cl\",\n        \"rank\": 16741\n    },\n    {\n        \"url\": \"http://www.juegosalmejorprecio.com\",\n        \"rank\": 215255\n    },\n    {\n        \"url\": \"http://www.imcb.info\",\n        \"rank\": 172987\n    },\n    {\n        \"url\": \"http://www.autocadmagazine.com\",\n        \"rank\": 852452\n    },\n    {\n        \"url\": \"http://www.ticosland.com\",\n        \"rank\": 44608\n    },\n    {\n        \"url\": \"http://www.startscan.net\",\n        \"rank\": 64252\n    },\n    {\n        \"url\": \"http://www.healthcare.com\",\n        \"rank\": 46254\n    },\n    {\n        \"url\": \"http://www.vmburl.com\",\n        \"rank\": 60629\n    },\n    {\n        \"url\": \"http://www.kirkwood.edu\",\n        \"rank\": 138577\n    },\n    {\n        \"url\": \"http://www.fen.com\",\n        \"rank\": 95836\n    },\n    {\n        \"url\": \"http://www.projectawol.com\",\n        \"rank\": 110527\n    },\n    {\n        \"url\": \"http://www.alternative-health-crystal-healing.com\",\n        \"rank\": 413403\n    },\n    {\n        \"url\": \"http://www.artra.at\",\n        \"rank\": 883786\n    },\n    {\n        \"url\": \"http://www.tecserver.com\",\n        \"rank\": 529725\n    },\n    {\n        \"url\": \"http://www.sunsuper.com.au\",\n        \"rank\": 376438\n    },\n    {\n        \"url\": \"http://www.thames-water.com\",\n        \"rank\": 98359\n    },\n    {\n        \"url\": \"http://www.murray.wa.gov.au\",\n        \"rank\": 531934\n    },\n    {\n        \"url\": \"http://www.spacetickets.com.au\",\n        \"rank\": 1046151\n    },\n    {\n        \"url\": \"http://www.kfh.co.uk\",\n        \"rank\": 131436\n    },\n    {\n        \"url\": \"http://www.icur.com.au\",\n        \"rank\": 952940\n    },\n    {\n        \"url\": \"http://www.thegrocerygame.com\",\n        \"rank\": 97645\n    },\n    {\n        \"url\": \"http://www.healthplans.com\",\n        \"rank\": 64666\n    },\n    {\n        \"url\": \"http://www.woh.co.uk\",\n        \"rank\": 110468\n    },\n    {\n        \"url\": \"http://www.generateuk.co.uk\",\n        \"rank\": 116499\n    },\n    {\n        \"url\": \"http://www.viralmediabar.com\",\n        \"rank\": 124177\n    }\n]"
+		},
+		{
+			"id": "ed96258e-2e18-aaeb-af92-67c2d889757d",
+			"headers": "",
+			"headerData": [
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/sites",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "09d3aca0-e703-67f2-e305-df63ce1565e4",
+			"data": null,
+			"dataMode": "params",
+			"name": "Get All sites",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1513729267805,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
